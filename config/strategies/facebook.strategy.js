@@ -23,7 +23,7 @@ module.exports = function() {
                 console.log('not found');
                 var user = new User;
 
-                user.email = profile.emails[0].value;
+                // user.email = profile.emails[0].value;
                 user.displayName = profile.displayName;
 
                 user.facebook = {};

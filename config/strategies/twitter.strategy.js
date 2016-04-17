@@ -31,6 +31,7 @@ module.exports = function(){
                 user.twitter.id = profile.id;
                 user.twitter.token = token;
 
+                user.save();
                 done(null, user);
             }
         })
